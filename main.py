@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_csv("french_dictionary.csv")
-x = df["eng"]
-y = df["french"]
+x = df["abide"]
+y = df["respecter"]
 
 fin = open("t8.shakespeare.txt", "rt")
 fout = open("out.txt", "wt")
