@@ -6,7 +6,7 @@ x = df["abide"]
 y = df["respecter"]
 
 fin = open("t8.shakespeare.txt", "rt")
-fout = open("out.txt", "wt")
+fout = open("t8.shakespeare.translated.txt", "wt")
 
 k = 0
 while(k < 1000):
